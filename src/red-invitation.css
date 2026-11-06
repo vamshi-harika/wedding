@@ -73,8 +73,12 @@
 @keyframes v3-heartbeat{0%,40%,100%{transform:scale(1)}50%{transform:scale(1.12)}60%{transform:scale(1)}70%{transform:scale(1.08)}}
 .wedding-experience.v3-red-invite .v3-short-venue .v3-countdown{font:italic 18px/1.5 Georgia,serif;color:#f4d6a3;margin:16px auto 0}.v3-red-invite .v3-countdown strong{font-weight:400;color:#ffe5a0}
 .wedding-experience.v3-red-invite .v3-classic-interior .garden-footer{padding-top:23px;padding-bottom:82px}
+.v3-red-invite .v3-invited-by{margin:0 auto 18px;text-align:center;color:#f8dfb8}
+.v3-red-invite .v3-invited-by-label{margin:0 0 8px;color:#e6c28a;font:600 11px/1.6 Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.v3-red-invite .v3-invited-by-names{display:flex;flex-direction:column;gap:2px;align-items:center}
+.v3-red-invite .v3-invited-by-names p{margin:0;color:#ffefcc;font:400 23px/1.35 Georgia,serif}.v3-red-invite .v3-invited-by-names p .v1-live{display:inline-block}
 .v3-red-invite .v3-footer-signature{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;color:#f8dfb8;font:15px/1.6 Georgia,serif}
 .v3-red-invite .v3-footer-signature p{margin:0;color:inherit;font:inherit}.v3-red-invite .v3-footer-signature p span{color:#ffe5a0}.v3-red-invite .v3-footer-star{display:inline-block;font-size:24px;color:#ffe5a0}
 .v3-red-invite [data-motion=on] .v3-footer-star{animation:v3-star-glow 4s ease-in-out infinite}
 @keyframes v3-star-glow{50%{opacity:.65;transform:scale(.85) rotate(45deg)}}
-@media(max-width:760px){.wedding-experience.v3-red-invite .day-chapter>.v3-wedding-date{font-size:clamp(25px,7vw,33px)}.wedding-experience.v3-red-invite .day-chapter>h2{font-size:18px}.wedding-experience.v3-red-invite .v3-classic-interior .event-ticket .telugu{font-size:clamp(18px,5vw,22px)}.v3-red-invite .v3-footer-signature{gap:7px 12px;font-size:14px}.v3-red-invite .v3-footer-signature p{width:100%}.v3-red-invite .v3-footer-signature time{order:3}.v3-red-invite .v3-footer-star{font-size:18px}}
+@media(max-width:760px){.wedding-experience.v3-red-invite .day-chapter>.v3-wedding-date{font-size:clamp(25px,7vw,33px)}.wedding-experience.v3-red-invite .day-chapter>h2{font-size:18px}.wedding-experience.v3-red-invite .v3-classic-interior .event-ticket .telugu{font-size:clamp(18px,5vw,22px)}.v3-red-invite .v3-invited-by-names p{font-size:19px}.v3-red-invite .v3-footer-signature{gap:7px 12px;font-size:14px}.v3-red-invite .v3-footer-signature p{width:100%}.v3-red-invite .v3-footer-signature time{order:3}.v3-red-invite .v3-footer-star{font-size:18px}}

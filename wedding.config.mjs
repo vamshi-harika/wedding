@@ -10,8 +10,8 @@ export const theme = {
 
 export const wedding = {
   // parents: add them like ['Father name', '& Mother name']. While empty, the line is hidden.
-  groom: { name: 'Krishna Vamshi', parentsLabel: 'Son of', parents: [] },
-  bride: { name: 'Harika', parentsLabel: 'Daughter of', parents: [] },
+  groom: { name: 'Krishna Vamshi', parentsLabel: '', parents: ['Late Smt. & Sri Muthyapu Rukkamma - Pentaih'] },
+  bride: { name: 'Harika', parentsLabel: '', parents: ['Smt. & Sri Vuthunuri Jyothi - Maruthi'] },
 
   date: '2026-11-21', // main wedding day, YYYY-MM-DD
   utcOffset: '+05:30', // time zone of the venue (India is +05:30)
@@ -26,6 +26,11 @@ export const wedding = {
   venue: {
     name: ['KBR Convention'],
     address: ['Chandeeshwari Colony, Mansoorabad', 'Hyderabad, Telangana 500068'],
+  },
+
+  invitedBy: {
+    label: 'Invited by',
+    names: ['Smt. Muthyapu Nagarani', 'Sri Muthyapu Mohan'],
   },
 
   text: {
